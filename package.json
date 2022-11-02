@@ -1,0 +1,30 @@
+{
+  "name": "generator-core",
+  "version": "3.12.1",
+  "photoshop-version": ">=20.0",
+  "description": "Adobe Photoshop Generator Core",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adobe-photoshop/generator-core.git"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "scripts": {
+    "test": "node node_modules/.bin/nodeunit test"
+  },
+  "dependencies": {
+    "optimist": "~0.6",
+    "q": "~1.0",
+    "semver": "^5.5.0",
+    "ws": "^1.1.5"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.2",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-nodeunit": "^1.0.0",
+    "grunt-jscs": "^3.0.1",
+    "jscs-trailing-whitespace-in-source": "0.0.1",
+    "nodeunit": "^0.11.2"
+  }
+}
